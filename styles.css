@@ -11,9 +11,11 @@ body{
 width: 1600px;
 font-family: 'Roboto',sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 li{
     list-style:none ;
 }
@@ -29,8 +31,35 @@ color: var(--brand-color2);
 
 .link:hover,
 .link:focus{
-    color: var(--brand-color4);
+color: var(--brand-color4); 
 }
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color:var(--brand-color2);   
+}
+
+.map-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-link{
+color: rgba(255, 255, 255, 0.6);
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+ }   
 
 .button{
 cursor: pointer;
@@ -85,9 +114,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
+
 /* section hero */
 .hero{
-background-color:var(--brand-color2);
+background-color:#2F303A;
 
 font-weight: 900;
 font-size: 44px;
@@ -137,6 +167,7 @@ line-height:1.19;
 text-align: center;
 letter-spacing: 0.03em;
 }
+
 .team-text{
 color: var(--brand-color2);
 font-weight: 400;
@@ -144,8 +175,8 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-
 }
+
 
 /* footer */
 .studio{
@@ -153,14 +184,15 @@ letter-spacing: 0.03em;
 }
 
 .footer{
-background-color: var(--brand-color2);
+background-color:#2F303A;
 }
+
 .addres-footer, .contact{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 1.71
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
