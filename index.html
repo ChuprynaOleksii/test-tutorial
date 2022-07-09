@@ -6,35 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body class="body">
     <header class="header" >
+        <div class="header-container container">
         <a class="logo" href=""><span class="web">Web</span>studio</a>
         <nav class="navigation">
             <ul class="nav-list">
-                <li><a class="current nav link" href="">Студия</a></li>
-                <li><a class="nav link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="nav link" href="">Контакты</a></li>
+                <li class="nav"><a class="current link nav-link" href="">Студия</a></li>
+                <li class="nav"><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
+                <li class="nav"><a class="link nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
         <address class="contact">
             <a class="header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="header-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
+        </div>
     </header>
 
     <main class="main">
         <section class="section hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <div class="container container-hero">
+            <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
             <button class="button" type="button">Заказать услугу</button>
+        </div>
         </section>
 
         <section class="section features">
+            <div class="container">
             <h2 class="features title" hidden>Осбенности</h2>
             <ul class="features-list">
+               
                 <li class="features-item">
                     <h3 class="features-subtitle">Внимание к деталям</h3>
                     <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -55,17 +62,20 @@
         </section>
 
         <section class="section about">
-            <h2 class="about title">Чем мы занимаемся</h2>
-            <ul class="about-list">
+            <div class="container container-about ">
+            <h2 class="about-title title">Чем мы занимаемся</h2>
+             <ul class="about-list container-list">
                 <li class="about-pic"><img src="image/first-page/box1.jpg" alt="робота на компьютере" width="370"></li>
                 <li class="about-pic"><img src="image/first-page/box2.jpg" alt="робота на телефоне" width="370"></li>
                 <li class="about-pic"><img src="image/first-page/box3.jpg" alt="робота с гаджетом" width="370"></li>
             </ul>
+            </div>
         </section>
 
         <section class="section team">
-            <h2 class="team title">Наша команда</h2>
-            <ul class="team-list">
+            <div class="container container-team ">
+            <h2 class="team-title title">Наша команда</h2>
+             <ul class="team-list">
                 <li class="team-item">
                     <img class="team-foto" src="image/first-page/foto1.jpg" alt="Игорь Демьяненко" width="270">
                     <h3 class="team-subtitle">Игорь Демьяненко</h3>
@@ -86,21 +96,21 @@
                     <h3 class="team-subtitle">Михаил Ермаков</h3>
                     <p class="team-text">UI Designer</p>
                 </li>
-            </ul>
+             </ul>
+            </div>
         </section>
 
     </main>
 
     <footer class="footer">
+        <div class="container container-footer">
         <a class="logo" href=""><span class="web">Web</span>
           <span class="studio">studio</span>
        </a>
-      <address class="addres-footer">
         <a class="map-link link" href="https://goo.gl/maps/dZuy5xrVvLrHyDDt7" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a> 
         <a class="footer-link link" href="mailto:info@example.com">info@example.com</a>  
         <a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a>  
-      </address>
-
+    </div>
   </footer>
 
 </body>
