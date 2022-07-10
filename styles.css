@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3{
+h1, h2, h3, p{
     margin: 0;
 }
 
@@ -103,6 +103,7 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+padding: 6px 22px;
 }
 
 .btn:hover, 
@@ -358,6 +359,32 @@ letter-spacing: 0.03em;
 
 
 /* portfolio */
+.btn-list{
+display: flex;
+justify-content: space-between;
+padding-top: 94px;
+padding-right: 280px;
+padding-left: 280px;
+padding-bottom: 50px;   
+margin: 0;
+}
+
+.exemple-list{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+padding-left: 0;
+margin-top: 0;
+}
+
+.pfd{
+margin: 0;
+}
+
+.exemple-item{
+flex-basis: calc((100% - 60px) / 3);
+}
+
 .exemple-title{
     color: var(--brand-color1);
 font-weight: 700;

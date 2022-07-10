@@ -12,38 +12,44 @@
 </head>
 <body class="body">
     <header class="header" >
+        <div class="header-container container">
         <a class="logo" href=""><span class="web">Web</span>studio</a>
         <nav class="navigation">
             <ul class="nav-list">
-                <li><a class="nav link" href="./index.html">Студия</a></li>
-                <li><a class="current nav link" href="">Портфолио</a></li>
-                <li><a class="nav link" href="">Контакты</a></li>
+                <li class="nav"><a class="current link nav-link" href="">Студия</a></li>
+                <li class="nav"><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
+                <li class="nav"><a class="link nav-link" href="">Контакты</a></li>
             </ul>
         </nav>
         <address class="contact">
             <a class="header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="header-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
+        </div>
     </header>
 
     <main class="portfolio">
-
-      <ul class="btn-list">
+        <div class="container">
+            <h1 hidden>Портфолио</h1>
+            
+            <ul class="btn-list">
         <li><button class="btn all">Все</button></li>
         <li><button class="btn site">Веб-сайты</button></li>
         <li><button class="btn app">Приложения</button></li>
         <li><button class="btn design">Дизайн</button></li>
         <li><button class="btn marketing">Маркетинг</button></li>
       </ul>
-
-      <section class="section-exemple">
-        <h1 hidden>Портфолио</h1>
+      
+        
 <ul class="exemple-list">
     <li class="exemple-item">
         <img src="./image/portfolio/img.jpg" alt="веб-сайт" width="370">
+        <div class="pfd">
         <h2 class="exemple-title" >Технокряк</h2>
         <p class="exemple-text" >Веб-сайт</p>
+    </div>
     </li>
+
     <li class="exemple-item">
         <img src="./image/portfolio/img1.jpg" alt="Дизайн" width="370">
         <h2 class="exemple-title" >Постер New Orlean vs Golden Star</h2>
@@ -85,21 +91,20 @@
         <p class="exemple-text" >Приложение</p>
     </li>
 </ul>
-      </section>
-
+     
+    </div>
     </main>
 
     <footer class="footer">
-          <a class="logo" href=""><span class="web">Web</span>
-            <span class="studio">studio</span>
-         </a>
-        <address class="addres-footer">
-          <a class="map-link link" href="https://goo.gl/maps/dZuy5xrVvLrHyDDt7" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a> 
-          <a class="footer-link link" href="mailto:info@example.com">info@example.com</a>  
-          <a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a>  
-        </address>
-
-    </footer>
+        <div class="container container-footer">
+        <a class="logo" href=""><span class="web">Web</span>
+          <span class="studio">studio</span>
+       </a>
+        <a class="map-link link" href="https://goo.gl/maps/dZuy5xrVvLrHyDDt7" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a> 
+        <a class="footer-link link" href="mailto:info@example.com">info@example.com</a>  
+        <a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a>  
+    </div>
+  </footer>
     
 </body>
 </html>
