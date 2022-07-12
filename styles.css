@@ -10,12 +10,13 @@
 width: 1200px;
 margin-left: auto;
 margin-right: auto;
-padding: 0 15px;
+padding-right: 15px;
+padding-left: 15px;
+
 outline:solid red;
 }
 
 body{
-width: 1600px;
 font-family: 'Roboto',sans-serif;
 }
 
@@ -92,7 +93,7 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 
-.btn{
+.btn-list>.btn{
 color: var(--brand-color1);
 background-color: var(--brand-color5);
 cursor: pointer;
@@ -104,6 +105,11 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 padding: 6px 22px;
+margin-left: 8px;
+}
+
+.btn:first-child{
+margin-left: 0;
 }
 
 .btn:hover, 
@@ -361,32 +367,27 @@ letter-spacing: 0.03em;
 /* portfolio */
 .btn-list{
 display: flex;
-justify-content: space-between;
+justify-content: center;
 padding-top: 94px;
-padding-right: 280px;
-padding-left: 280px;
-padding-bottom: 50px;   
-margin: 0;
+padding-bottom: 50px;  
+margin: 0; 
 }
 
 .exemple-list{
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
-padding-left: 0;
-margin-top: 0;
-}
-
-.pfd{
-margin: 0;
 }
 
 .exemple-item{
-flex-basis: calc((100% - 60px) / 3);
+flex-basis: calc( ( 100% - 60px ) / 3 );
 }
 
+
+
+
 .exemple-title{
-    color: var(--brand-color1);
+color: var(--brand-color1);
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
