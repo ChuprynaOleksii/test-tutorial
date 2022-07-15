@@ -13,7 +13,7 @@ margin-right: auto;
 padding-right: 15px;
 padding-left: 15px;
 
-outline:solid red;
+outline:solid 1px red;
 }
 
 body{
@@ -94,7 +94,7 @@ line-height: 1.88;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border-color: transparent;
-padding: 10 32px;
+padding: 10 32;
 
 align-items: center;
 text-align: center;
@@ -195,13 +195,21 @@ letter-spacing: 0.02em;
 
 /* section hero */
 .container-hero{
+    
 text-align: center;
 }
 
+/* ./image/background.jpg */
+
 .hero{
 background-color:#C4C4C4;
-background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-rgba(47, 48, 58, 0.4)), url(./image/background.jpg);
+
+background-image:
+linear-gradient(to right, 
+rgba(47, 48, 58, 0.4), 
+rgba(47, 48, 58, 0.4)),  
+url(../image/background.jpg);
+
 max-width: 1600px;
 background-position: center;
 background-repeat: no-repeat;
@@ -216,7 +224,7 @@ line-height: 1.36;
 }
 
 .hero-title{
-color: var(--brand-color3);
+color: var(--brand-color3)
 margin-bottom: 30px;
 font-weight: 900;
 font-size: 44px;
@@ -282,7 +290,6 @@ margin-bottom: 50px;
 
 /* section team */
 .team{
-max-width: 1600px;
 margin-left: auto;
 margin-right: auto;
 background-color: var(--brand-color5);
@@ -355,7 +362,6 @@ color: var(--brand-color3);
 }
 
 .footer{
-max-width: 1600px;
 margin-left: auto;
 margin-right: auto;
 background-color:#2F303A;
@@ -402,8 +408,14 @@ margin-bottom: 0;
 width: 370px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
+}
+
+.list-border:hover,
+.list-border:focus{
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .title-div{
