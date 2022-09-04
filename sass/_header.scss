@@ -1,0 +1,94 @@
+.nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding: 16px 0;
+    }
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 93px;
+}
+
+.web {
+    color: var(--brand-color4);
+}
+
+.nav-list {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    display: none;
+}
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+}
+
+.nav-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav {
+    margin-right: 50px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.contact {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+        display: none;
+    }
+
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.mobile-menu-open{
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+
+margin-left: auto;
+}
